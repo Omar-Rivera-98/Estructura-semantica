@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Boogaloo-Regular';
+    src: url('../fonts/Boogaloo-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+
+    body{
+    background: linear-gradient(rgb(0, 255, 76),rgb(255, 255, 255));
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-attachment:fixed;
+}
+hr{
+    border-radius: 20px;
+    height: 10px;
+    width: auto;
+    background: linear-gradient(rgb(0, 0, 0),rgb(255, 255, 255));
+}
+h1{
+    text-align: center;
+    font-family: Boogaloo-Regular;
+    font-size: 60px;
+    color: black;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    margin-right: 40px;
+}
+
+nav li{
+    display: inline;
+    margin-left: 25px;
+}
+
+nav a{
+    font-family: Boogaloo-Regular;
+    color: #000000;
+    position: relative;
+    font-size: 40px;
+}
+
+nav a:hover{
+    font-family: Boogaloo-Regular;
+    color: white;
+    position: relative;
+    font-size: 45px;
+}
+
+.boqueron{
+    font-family: Boogaloo-Regular;
+    font-size: 40px;
+}
+
+.welcome{
+    font-family: Boogaloo-Regular;
+    font-size: 40px;
+}
+
+.boqueron p{
+    font-family: Boogaloo-Regular;
+    font-size: 40px;
+    margin-left: 450px;
+}
+
+
+.boqueron img{
+    margin-left: 0px;
+    margin-top: -150px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.francia p{
+    margin-top: 100px;
+    font-family: Boogaloo-Regular;
+    font-size: 40px;
+    margin-left: 450px;
+}
+
+
+.francia img{
+    margin-left: 0px;
+    margin-top: -490px;
+    margin-bottom: 100px;
+    width: 350px;
+    border-radius: 20px;
+    height: 400;
+}
+
+.niagara p{
+    margin-top: 100px;
+    font-family: Boogaloo-Regular;
+    font-size: 40px;
+    margin-left: 450px;
+}
+
+
+.niagara img{
+    margin-left: 0px;
+    margin-top: -150px;
+    margin-bottom: 100px;
+    width: 350px;
+    border-radius: 20px;
+    height: 400;
+}
+
+nav a:hover::after { /*Una propiedad para simular el subrayado*/
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Ajusta la posición vertical según sea necesario */
+    width: 100%;
+    height: 5px; /* Ajusta el grosor del subrayado según sea necesario */
+    background: linear-gradient(to right, #000000,white);
+}
+img{
+    margin-left: 900px;
+    width: 100px;
+}
+
+footer{
+    margin-top: 90px;
+    font-size: 40px;
+    text-align: center;
+}

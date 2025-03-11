@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap ');
+.paprika-regular {
+    font-family: "Paprika", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+.card{
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px #01ff55;
+    font-family: Paprika;
+}
+.card h1{
+    color: violet;
+    text-align: center;
+}
+
+.card h2{
+    margin-left: 10px;
+}
+
+.card p{
+    text-align: center;
+}
+.card img{
+    width: 100%;
+
+}
+.tarjeta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card:hover{
+    background-color: aqua;
+    box-shadow: 0 5px #000000;
+    transform: scale(1.05);
+}
