@@ -7,17 +7,13 @@
 
 
     body{
-    background: linear-gradient(rgb(0, 255, 76),rgb(255, 255, 255));
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    background-attachment:fixed;
+    background-color: rgb(186, 255, 240);
 }
 hr{
     border-radius: 20px;
     height: 10px;
     width: auto;
-    background: linear-gradient(rgb(0, 0, 0),rgb(255, 255, 255));
+    background: linear-gradient(rgb(0, 0, 0),rgb(171, 255, 251));
 }
 h1{
     text-align: center;
@@ -45,7 +41,7 @@ nav a{
 
 nav a:hover{
     font-family: Boogaloo-Regular;
-    color: white;
+    color: rgb(255, 0, 0);
     position: relative;
     font-size: 45px;
 }
@@ -66,10 +62,28 @@ nav a:hover{
     margin-left: 450px;
 }
 
+.welcome{
+    font-family: Boogaloo-Regular;
+    font-size: 40px;
+}
+
+.planboqueron p{
+    font-family: Boogaloo-Regular;
+    font-size: 40px;
+    margin-left: 450px;
+}
+
 
 .boqueron img{
     margin-left: 0px;
     margin-top: -150px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.planboqueron img{
+    margin-left: 0px;
+    margin-top: -200px;
     width: 400px;
     border-radius: 20px;
 }
@@ -91,6 +105,24 @@ nav a:hover{
     height: 400;
 }
 
+/**/
+.planfrancia p{
+    margin-top: 100px;
+    font-family: Boogaloo-Regular;
+    font-size: 40px;
+    margin-left: 450px;
+}
+
+
+.planfrancia img{
+    margin-left: 0px;
+    margin-top: -550px;
+
+    width: 350px;
+    border-radius: 20px;
+    height: 400;
+}
+
 .niagara p{
     margin-top: 100px;
     font-family: Boogaloo-Regular;
@@ -102,28 +134,36 @@ nav a:hover{
 .niagara img{
     margin-left: 0px;
     margin-top: -150px;
-    margin-bottom: 100px;
+    width: 350px;
+    border-radius: 20px;
+    height: 400;
+}
+/**/
+.planniagara p{
+    margin-top: 100px;
+    font-family: Boogaloo-Regular;
+    font-size: 40px;
+    margin-left: 450px;
+}
+
+
+.planniagara img{
+    margin-left: 0px;
+    margin-top: -600px;
+
     width: 350px;
     border-radius: 20px;
     height: 400;
 }
 
-nav a:hover::after { /*Una propiedad para simular el subrayado*/
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -2px; /* Ajusta la posición vertical según sea necesario */
-    width: 100%;
-    height: 5px; /* Ajusta el grosor del subrayado según sea necesario */
-    background: linear-gradient(to right, #000000,white);
-}
-img{
-    margin-left: 900px;
+
+header img{
+    margin-left: 880px;
     width: 100px;
 }
 
 footer{
     margin-top: 90px;
     font-size: 40px;
-    text-align: center;
+    text-align: justify;
 }
