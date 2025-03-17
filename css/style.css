@@ -163,7 +163,12 @@ header img{
 }
 
 footer{
-    margin-top: 90px;
-    font-size: 40px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+footer p{
+    margin: 0px;
+    font-size: 20px;
     text-align: justify;
 }
